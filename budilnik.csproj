@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Code-behind MainWindow -->
+    <Compile Update="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <!-- Code-behind WheelPicker -->
+    <Compile Update="WheelPicker.xaml.cs">
+      <DependentUpon>WheelPicker.xaml</DependentUpon>
+    </Compile>
+    <!-- Code-behind AlarmWindow -->
+    <Compile Update="AlarmWindow.xaml.cs">
+      <DependentUpon>AlarmWindow.xaml</DependentUpon>
+    </Compile>
+    <!-- и т.д. для других XAML-контролов/окон -->
+  </ItemGroup>
+</Project>

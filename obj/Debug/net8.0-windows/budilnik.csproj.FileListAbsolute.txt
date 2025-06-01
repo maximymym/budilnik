@@ -1,0 +1,9 @@
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\AlarmWindow.baml
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\WheelPicker.baml
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\AlarmWindow.g.cs
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\WheelPicker.g.cs
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\budilnik_MarkupCompile.cache
+C:\Users\aleks\source\repos\budilnik\budilnik\obj\Debug\net8.0-windows\budilnik_MarkupCompile.lref
