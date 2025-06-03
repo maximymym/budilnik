@@ -4,6 +4,7 @@ using System.Windows.Input;
 using Microsoft.Win32;
 using System.Windows.Threading;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 
 namespace budilnik
 {
@@ -28,6 +29,12 @@ namespace budilnik
             HourPicker.SelectedIndex = DateTime.Now.Hour;
             MinutePicker.SelectedIndex = DateTime.Now.Minute;
             SecondPicker.SelectedIndex = DateTime.Now.Second;
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var fade = new DoubleAnimation(0, 1, TimeSpan.FromMilliseconds(500));
+            BeginAnimation(Window.OpacityProperty, fade);
         }
 
         #region Song Selection
